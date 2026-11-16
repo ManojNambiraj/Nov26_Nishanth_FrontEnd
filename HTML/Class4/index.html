@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <h2>User Registration</h2>
+
+      <div>
+        <label for="username">Name</label>
+        <input type="text" id="username" name="username" />
+      </div>
+
+      <div>
+        <label for="age">Age</label>
+        <input type="number" id="age" />
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" />
+      </div>
+
+      <div>
+        <label for="mobile">Mobile</label>
+        <input type="number" id="mobile" />
+      </div>
+
+      <div>
+        <label for="gender">Gender</label><br />
+
+        <input type="radio" id="male" name="gender" />
+        <label for="male">male</label>
+
+        <input type="radio" id="female" name="gender" />
+        <label for="female">female</label>
+      </div>
+
+      <div>
+        <label for="FavColor">FavColor</label><br />
+
+        <input type="checkbox" id="Blue" name="FavColor" />
+        <label for="Blue">Blue</label><br />
+
+        <input type="checkbox" id="Yellow" name="FavColor" />
+        <label for="Yellow">Yellow</label><br />
+
+        <input type="checkbox" id="Black" name="FavColor" />
+        <label for="Black">Black</label><br />
+
+        <input type="checkbox" id="Red" name="FavColor" />
+        <label for="Red">Red</label><br />
+
+        <input type="checkbox" id="Pink" name="FavColor" disabled />
+        <label for="Pink">Pink</label><br />
+      </div>
+
+      <div>
+        <label for="MyCar">MyCar</label>
+        <select name="MyCar" id="MyCar">
+            <option value="" disabled selected>--Select--</option>
+            <option value="B">BMW</option>
+            <option value="V">Volvo</option>
+            <option value="F">Ferrari</option>
+            <option value="A">Audi</option>
+            <option value="Bz">Benz</option>
+        </select>
+      </div>
+    </form>
+  </body>
+</html>
