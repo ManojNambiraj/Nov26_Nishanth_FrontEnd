@@ -11,7 +11,7 @@
 
       <div>
         <label for="username">Name</label>
-        <input type="text" id="username" name="username" />
+        <input type="text" id="username" name="username" required />
       </div>
 
       <div>
@@ -61,13 +61,34 @@
       <div>
         <label for="MyCar">MyCar</label>
         <select name="MyCar" id="MyCar">
-            <option value="" disabled selected>--Select--</option>
-            <option value="B">BMW</option>
-            <option value="V">Volvo</option>
-            <option value="F">Ferrari</option>
-            <option value="A">Audi</option>
-            <option value="Bz">Benz</option>
+          <option value="" disabled selected>--Select--</option>
+          <option value="B">BMW</option>
+          <option value="V">Volvo</option>
+          <option value="F">Ferrari</option>
+          <option value="A">Audi</option>
+          <option value="Bz">Benz</option>
         </select>
+      </div>
+
+      <div>
+        <label for="DOB">DOB</label>
+        <input type="date" id="DOB" />
+      </div>
+
+      <div>
+        <label for="TOB">TOB</label>
+        <input type="time" />
+      </div>
+
+      <div>
+        <label for="Address">Address</label>
+        <textarea name="Address" id="Address" cols="30" rows="2"></textarea>
+      </div>
+
+      <div>
+        <button>Cancel</button>
+        <input type="button" value="Reset" />
+        <input type="submit">
       </div>
     </form>
   </body>
